@@ -41,9 +41,10 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* added hover and under to nav */
 nav a:hover{
     color: #d9dcd6;
-    
+    text-decoration: underline;
 }
 
 p {
@@ -133,26 +134,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
+/* grouped css styles to one style */
+.content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
